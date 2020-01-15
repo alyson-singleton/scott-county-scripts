@@ -9,7 +9,7 @@ library(GGally)
 library(corrplot)
 
 # load data
-setwd("~/Desktop/research/SC_inj_net_dynamics/scripts")
+setwd("~/Desktop/research/SC_inj_net_dynamics/scripts/cleaned.1.15.2020")
 total_data_A3 <- read.csv("A3_conditions_ten_percent.csv")
 observed_A3 <- read.csv("A3_observed.csv")
 
